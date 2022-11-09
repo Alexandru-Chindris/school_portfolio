@@ -161,6 +161,15 @@ figure {
     position: relative;
 }
 
+.video {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.section-title .text {
+    margin-top: 20px;
+}
+
 /* aside */
 .aside {
     width: 270px;
