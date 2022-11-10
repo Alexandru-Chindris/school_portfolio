@@ -473,6 +473,12 @@ path.two {
   -webkit-animation:move-twink-back 200s linear infinite;
   animation:move-twink-back 200s linear infinite;
 }
+/* Background in Home*/
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
 /* home */
 .home {
     min-height: 100vh;
