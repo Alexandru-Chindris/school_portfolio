@@ -26,10 +26,14 @@ function setActiveStyle(color)
     })
 }
 /* ========================== theme light and dark mode =========================== */
+let space1 = document.getElementById("spacecom_1");
+let space2 = document.getElementById("spacecom_2");
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {
     dayNight.querySelector("i").classList.toggle("fa-sun");
     dayNight.querySelector("i").classList.toggle("fa-moon");
+    space1.classList.toggle("stars");
+    space2.classList.toggle("twinkling");
     document.body.classList.toggle("dark");
 })
 window.addEventListener("load", () => {
